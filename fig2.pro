@@ -248,7 +248,7 @@ t23 = text(mean(pos223[[0, 2]]), mean(pos222[[1, 3]]), /dev, $
     font_size=11, font_name='malgun gothic')
 
 
-cd, '/hae/homedata/khcho/tomography-1906'
+cd, '/data/home/chokh/tomography-1902'
 w01.save, 'fig2.pdf', resol=300, /bitmap, $
             page_size=w01.dimen/1d2, width=w01.dimen[0]/1d2
 end

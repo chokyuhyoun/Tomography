@@ -1,7 +1,7 @@
-path = '/hae/homedata/khcho/tomography-1906'
+path = '/data/home/chokh/tomography-1902'
 cd, path
 
-restore, 'tdem_result_5.5_6.5.sav' ;; box_all
+restore, 'tdem_result.sav' ;; box_all
 restore, 'sdo_img_all.sav' ;; img
 
 w01 = window(dim=[8d2, 8d2], background_color='black')
